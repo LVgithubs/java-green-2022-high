@@ -6,6 +6,8 @@ public class StringCollectionEx01 {
         // 차곡차곡 넣을때 무엇이 좋을까?
         // 보기에 좋고
         // 수정하기에도 편하다.
+
+        // StringBuffer 자원 동기화 적용되어 있음!
         StringBuffer sb = new StringBuffer();
         sb.append("http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?");
         sb.append(
